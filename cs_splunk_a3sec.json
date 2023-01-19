@@ -1,0 +1,301 @@
+{
+	"name": "ICS A3sec",
+	"versions": {
+		"attack": "12",
+		"navigator": "4.8.0",
+		"layer": "4.4"
+	},
+	"domain": "ics-attack",
+	"description": "Cobertura MItre ATT&CK ICS Splunk A3sec",
+	"filters": {
+		"platforms": [
+			"Field Controller/RTU/PLC/IED",
+			"Device Configuration/Parameters",
+			"Human-Machine Interface",
+			"Control Server",
+			"Data Historian",
+			"Engineering Workstation",
+			"Safety Instrumented System/Protection Relay",
+			"None",
+			"Input/Output Server",
+			"Windows"
+		]
+	},
+	"sorting": 0,
+	"layout": {
+		"layout": "side",
+		"aggregateFunction": "average",
+		"showID": true,
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false
+	},
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T0881",
+			"tactic": "inhibit-response-function",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0814",
+			"tactic": "inhibit-response-function",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0807",
+			"tactic": "execution-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0863",
+			"tactic": "execution-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0853",
+			"tactic": "execution-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0819",
+			"tactic": "initial-access-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0811",
+			"tactic": "collection-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0842",
+			"tactic": "discovery-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0809",
+			"tactic": "inhibit-response-function",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0865",
+			"tactic": "initial-access-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0812",
+			"tactic": "lateral-movement-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0822",
+			"tactic": "initial-access-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0823",
+			"tactic": "execution-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0882",
+			"tactic": "impact-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0849",
+			"tactic": "evasion-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0847",
+			"tactic": "initial-access-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0859",
+			"tactic": "persistence-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0859",
+			"tactic": "lateral-movement-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0846",
+			"tactic": "discovery-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0884",
+			"tactic": "command-and-control-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0869",
+			"tactic": "command-and-control-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0885",
+			"tactic": "command-and-control-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0873",
+			"tactic": "persistence-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0840",
+			"tactic": "discovery-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T0883",
+			"tactic": "initial-access-ics",
+			"color": "#31a354",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666ff",
+			"#8ec843ff"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"links": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": false
+}
